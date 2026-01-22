@@ -1,3 +1,4 @@
+#need file.txt to store the data 
 def tampil():
     file = open("tes.txt", "r")
     isi =  file.read()
@@ -46,4 +47,5 @@ def main():
                 print("Pilihan Tidak ada di Menu!(Silakan pilih antara 1-4)")
         except ValueError:
             print("Input tidak valid!")                                    
+
 main()        
